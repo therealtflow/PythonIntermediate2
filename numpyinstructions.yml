@@ -1,0 +1,21 @@
+I had to install python on my mac to get this to work - 
+- so one of the requirements is that you need to have python installed on your computer
+I installed python3 so the commands for this were as follows
+
+--
+python3 -m venv vm
+source vm/bin/activate
+pip3 install numpy (i had to use pip3 instead of pip, you may be able to use pip)
+--
+
+within the terminal you will also have to run the file - 
+- you must know where the file is in your system
+the commands I used to run the file are as follows 
+
+--
+cd desktop/ITSC3155/pythonint2
+chmod +x ex3.py
+./ex3.py
+-- 
+
+after this the code should run correctly
